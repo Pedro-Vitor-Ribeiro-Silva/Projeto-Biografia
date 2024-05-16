@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Pelé</a>
+        <a href="index2.html">Michael Jackson</a>
+        <a href="index3.html">Van Gogh</a>
+        <a href="index4.html">Albert Einstein</a>
+    </div>
+
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Outras Biografias</span>
+    <div class="corpo">
+
+        <div id="title">
+            <img src="ftvan.jpg" alt="Foto de perfil">
+            <h1>Vincent Van Gogh</h1>
+        </div>
+        <div class="bio">
+
+            <div class="info">
+                <p>Vincent van Gogh nasceu em uma família de religiosos e comerciantes de arte. Seu pai era pastor da
+                    Igreja Reformada Holandesa, e a religião teve uma forte influência em sua vida. Van Gogh cresceu em
+                    várias cidades dos Países Baixos e da Bélgica, onde seu pai era transferido, e desenvolveu um
+                    profundo amor pela natureza e pelas pessoas simples que encontrava.</p>
+
+
+                <p> Van Gogh começou a desenhar e pintar tardiamente, aos 27 anos, mas rapidamente desenvolveu um estilo
+                    único e reconhecível. Ele foi influenciado por artistas como Jean-François Millet, que retratava a
+                    vida rural de forma realista, e por pintores impressionistas como Claude Monet e Camille Pissarro.
+                    Van Gogh experimentou várias técnicas e estilos ao longo de sua carreira, incluindo o uso de cores
+                    vibrantes e pinceladas visíveis que se tornaram marcas registradas de seu trabalho.
+
+                </p>
+
+
+                <p> Van Gogh lutou contra problemas de saúde mental ao longo de sua vida, incluindo episódios de
+                    depressão e psicose. Seus relacionamentos também foram tumultuados, especialmente com sua família e
+                    com o pintor Paul Gauguin, com quem teve uma relação conturbada durante a breve convivência em
+                    Arles.
+
+                </p>
+
+                <p>Durante sua vida, Van Gogh vendeu apenas uma pintura e era pouco reconhecido como artista. No
+                    entanto, sua obra póstuma alcançou grande sucesso e influenciou inúmeras gerações de artistas. Suas
+                    pinturas são conhecidas por sua expressão emocional e por capturar a beleza e a complexidade da vida
+                    cotidiana. Van Gogh é frequentemente considerado um dos maiores artistas de todos os tempos e suas
+                    obras estão entre as mais valorizadas e reconhecidas do mundo da arte.
+                </p>
+
+                <table border="1" cellpadding="5" cellspacing="0">
+                    <h3>PRINCIPAIS OBRAS</h3>
+                    <thead>
+                        <tr>
+                            <th>Nome da Obra</th>
+                            <th>Anos de Criação</th>
+                            <th>Localização da Pintura</th>
+                            <th>Valor Estimado (em milhões de dólares)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Os Girassóis</td>
+                            <td>1889</td>
+                            <td>França (Arles)</td>
+                            <td>$39.7</td>
+                        </tr>
+                        <tr>
+                            <td>Quarto em Arles</td>
+                            <td>1888</td>
+                            <td>França (Arles)</td>
+                            <td>$60.9</td>
+                        </tr>
+                        <tr>
+                            <td>Noite Estrelada</td>
+                            <td>1889</td>
+                            <td>França (Saint-Rémy)</td>
+                            <td>$100</td>
+                        </tr>
+                        <tr>
+                            <td>Autorretrato com orelha cortada</td>
+                            <td>1889</td>
+                            <td>França (Saint-Rémy)</td>
+                            <td>$45.4</td>
+                        </tr>
+                        <tr>
+                            <td>Irises</td>
+                            <td>1889</td>
+                            <td>França (Saint-Rémy)</td>
+                            <td>$53.9</td>
+                        </tr>
+                        <tr>
+                            <td>Retrato de Joseph Roulin</td>
+                            <td>1889</td>
+                            <td>França (Arles)</td>
+                            <td>$45</td>
+                        </tr>
+                        <tr>
+                            <td>Campo de Trigo com Corvos</td>
+                            <td>1890</td>
+                            <td>França (Auvers-sur-Oise)</td>
+                            <td>$38.7</td>
+                        </tr>
+                        <tr>
+                            <td>Retrato do Dr. Gachet</td>
+                            <td>1890</td>
+                            <td>França (Auvers-sur-Oise)</td>
+                            <td>$82.5</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+            document.body.style.backgroundColor = "rgb(0,0,0,1.4)";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+            document.body.style.backgroundColor = "white";
+        }
+    </script>
+
+</body>
+
+</html>

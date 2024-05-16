@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Pelé</a>
+        <a href="index2.html">Michael Jackson</a>
+        <a href="index3.html">Van Gogh</a>
+        <a href="index4.html">Albert Einstein</a>
+    </div>
+
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Outras Biografias</span>
+    <div class="corpo">
+
+        <div id="title">
+            <img src="ftmic.jpg" alt="Foto de perfil">
+            <h1>Michael Jackson: O Rei do Pop</h1>
+        </div>
+        <div class="bio">
+
+            <div class="info">
+                <p>Michael Joseph Jackson nasceu em 29 de agosto de 1958, em Gary, Indiana, nos Estados Unidos. Ele era
+                    o oitavo de dez filhos de Joseph Jackson e Katherine Jackson. Sua família era musical, e Michael
+                    começou a se apresentar com seus irmãos no grupo Jackson 5 desde muito jovem.</p>
+
+
+                <p>O talento de Michael logo se destacou, e ele rapidamente se tornou o vocalista principal do grupo. Em
+                    1969, aos 11 anos, os Jackson 5 assinaram um contrato com a Motown Records e lançaram uma série de
+                    sucessos, incluindo "I Want You Back" e "ABC".</p>
+
+
+                <p>Na década de 1970, Michael começou a trabalhar em sua carreira solo. Seu primeiro álbum solo, "Got to
+                    Be There", foi lançado em 1972, seguido por "Ben" em 1973. No entanto, foi com o álbum "Off the
+                    Wall", lançado em 1979, que Michael realmente se estabeleceu como um artista solo de sucesso.
+
+                </p>
+
+                <p>Foi o álbum "Thriller", lançado em 1982, que catapultou Michael para a fama global. O álbum se tornou
+                    o mais vendido de todos os tempos e gerou uma série de hits, incluindo "Billie Jean", "Beat It" e
+                    "Thriller". Os videoclipes dessas músicas, especialmente "Thriller", tornaram-se fenômenos culturais
+                    e revolucionaram a indústria da música.
+                </p>
+                <p>O sucesso de "Thriller" foi seguido por outros álbuns de sucesso, como "Bad" (1987) e "Dangerous"
+                    (1991). Michael continuou a ser uma figura influente na música e na cultura pop, colaborando com
+                    outros artistas de renome e participando de causas beneficentes.</p>
+
+                <p>No entanto, a vida pessoal de Michael foi marcada por controvérsias e escândalos, incluindo alegações
+                    de abuso infantil, que ele sempre negou. Essas acusações afetaram sua carreira e sua saúde mental.
+                </p>
+
+                <p>Michael Jackson faleceu em 25 de junho de 2009, aos 50 anos, devido a uma overdose acidental de
+                    medicamentos prescritos. Sua morte foi uma grande perda para a indústria da música e seus fãs em
+                    todo o mundo.</p>
+
+                <p>Apesar das controvérsias, o legado de Michael Jackson como um dos maiores artistas de todos os tempos
+                    permanece inegável. Sua música, seu estilo e sua influência continuam a inspirar artistas e fãs em
+                    todo o mundo.</p>
+
+                <table border="1" cellpadding="5" cellspacing="0">
+                    <h3>PRÊMIO E INDICAÇÕES</h3>
+                    <thead>
+                        <tr>
+                            <th>Ano</th>
+                            <th>Nome</th>
+                            <th>Posição na Billboard Hot 100</th>
+                            <th>Semanas na Classificação</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1983</td>
+                            <td>Billie Jean</td>
+                            <td>1°</td>
+                            <td>7 semanas</td>
+                        </tr>
+                        <tr>
+                            <td>1982</td>
+                            <td>Thriller</td>
+                            <td>1°</td>
+                            <td>9 semanas</td>
+                        </tr>
+                        <tr>
+                            <td>1987</td>
+                            <td>Bad</td>
+                            <td>1°</td>
+                            <td>5 semanas</td>
+                        </tr>
+                        <tr>
+                            <td>1983</td>
+                            <td>Beat It</td>
+                            <td>1°</td>
+                            <td>3 semanas</td>
+                        </tr>
+                        <tr>
+                            <td>1991</td>
+                            <td>Black or White</td>
+                            <td>1°</td>
+                            <td>7 semanas</td>
+                        </tr>
+                        <tr>
+                            <td>1995</td>
+                            <td>You Are Not Alone</td>
+                            <td>1°</td>
+                            <td>6 semanas</td>
+                        </tr>
+                        <tr>
+                            <td>1987</td>
+                            <td>Man in the Mirror</td>
+                            <td>1°</td>
+                            <td>2 semanas</td>
+                        </tr>
+                        <tr>
+                            <td>1982</td>
+                            <td>Don't Stop 'Til You Get Enough</td>
+                            <td>1°</td>
+                            <td>6 semanas</td>
+                        </tr>
+                        <tr>
+                            <td>1993</td>
+                            <td>Heal the World</td>
+                            <td>6°</td>
+                            <td>4 semanas</td>
+                        </tr>
+                        <tr>
+                            <td>1995</td>
+                            <td>They Don't Care About Us</td>
+                            <td>3°</td>
+                            <td>11 semanas</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+            document.body.style.backgroundColor = "rgb(0,0,0,1.4)";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+            document.body.style.backgroundColor = "white";
+        }
+    </script>
+
+</body>
+
+</html>
